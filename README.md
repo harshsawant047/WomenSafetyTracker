@@ -32,12 +32,6 @@ A comprehensive safety analytics platform providing real-time insights and emerg
 - **Data Visualization**: Chart.js
 - **Geospatial Analysis**: GeoPandas, NumPy, Pandas
 
-## Documentation
-
-- [Local Setup Guide](docs/local_setup_guide.md): Instructions for setting up the project locally
-- [MongoDB Data Guide](docs/mongodb_data_guide.md): Explanation of MongoDB data generation and structure
-- [Requirements List](docs/requirements_list.md): List of required Python packages and their descriptions
-
 ## Data Sources
 
 This application uses the following Indian crime data sources:
@@ -56,6 +50,7 @@ This project is actively under development with focus on the following areas:
 - Python 3.11+
 - SQLite3 database
 - MapmyIndia API credentials (for India-specific features)
+- Fast2SMS API (for sms service)
 
 ## Contributing
 
