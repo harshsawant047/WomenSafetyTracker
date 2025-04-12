@@ -16,18 +16,17 @@ A comprehensive safety analytics platform providing real-time insights and emerg
 
 ### Safety Tools
 - **Community Reporting**: Platform for anonymously reporting safety incidents
-- **Safety Resources**: Directory of police stations, hospitals, and support organizations
 - **Emergency Helplines**: Quick access to national and state-level emergency numbers
 
 ### Technical Features
-- **Dual Database System**: PostgreSQL for relational data, MongoDB for NoSQL data
+- **Database System**: Sqlite3 for faster and easier manipulation of data
 - **API Integration**: MapmyIndia integration for India-specific geolocation features
 - **Data Analytics**: Statistical analysis of crime patterns and safety trends
 
 ## Technology Stack
 
 - **Backend**: Python Flask
-- **Database**: PostgreSQL + MongoDB
+- **Database**: Sqlite3
 - **Frontend**: HTML, CSS, JavaScript with Bootstrap
 - **Maps**: Leaflet.js with MapmyIndia integration
 - **Data Visualization**: Chart.js
@@ -55,29 +54,8 @@ This project is actively under development with focus on the following areas:
 ## Prerequisites
 
 - Python 3.11+
-- PostgreSQL database
-- MongoDB database
+- SQLite3 database
 - MapmyIndia API credentials (for India-specific features)
-
-## Quick Start
-
-See the [Local Setup Guide](docs/local_setup_guide.md) for detailed instructions on getting started with the application.
-
-```bash
-# Clone repository
-git clone <repository-url>
-cd womens-safety-analytics
-
-# Install dependencies
-# See docs/requirements_list.md for the complete list of packages
-pip install flask pandas numpy geopandas psycopg2-binary pymongo
-
-# Configure environment variables
-# (See local_setup_guide.md for details)
-
-# Run the application
-python main.py
-```
 
 ## Contributing
 
